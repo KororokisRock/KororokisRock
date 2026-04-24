@@ -17,47 +17,31 @@ Java Backend Developer / Backend Intern
 
 ### Banking Cards Management API
 
-REST API для управления банковскими картами.
+REST API для управления банковскими картами на Spring Boot.
 
-В проекте реализованы регистрация и аутентификация пользователей через JWT, ролевая модель доступа USER/ADMIN, CRUD-операции с банковскими картами, переводы между картами, фильтрация и пагинация данных.
+В проекте реализованы JWT-аутентификация, ролевая модель доступа USER/ADMIN, CRUD-операции с банковскими картами, переводы между картами, фильтрация и пагинация данных. Также используются Liquibase, Hibernate/Spring Data JPA, Swagger/OpenAPI и запуск через Docker.
 
-Также использованы миграции базы данных через Liquibase, взаимодействие с БД через Hibernate/Spring Data JPA, документация API через Swagger/OpenAPI и запуск приложения через Docker.
-
-Repository: https://github.com/KororokisRock/Spring-Boot-Application
+[Repository](https://github.com/KororokisRock/Spring-Boot-Application)
 
 ### Spring MVC Non-Boot Application
 
 Backend-приложение на Spring MVC без использования Spring Boot.
 
-Проект реализован с ручной конфигурацией Spring Security, Hibernate/JPA, JWT access/refresh tokens, MySQL, Liquibase и деплоем в servlet container.
+Проект реализован с ручной конфигурацией Spring Security, Hibernate/JPA, JWT access/refresh tokens, MySQL, Liquibase и деплоем в servlet container. Основной акцент проекта — работа со Spring Framework без автоматической конфигурации Spring Boot.
 
-Основная цель проекта — глубже разобраться в устройстве Spring Framework, web-приложений на Java, servlet container, security-конфигурации и работе backend-приложения без автоматической конфигурации Spring Boot.
-
-Repository: https://github.com/KororokisRock/Spring-Non-Boot-Application
-
-### MiniBlog
-
-Простое web-приложение блога на Servlet API, JSP и JDBC.
-
-В проекте реализованы авторизация, работа с постами и комментариями, DAO-слой, взаимодействие с MySQL и запуск через Tomcat.
-
-Проект показывает базовое понимание Java web-разработки без Spring: обработку HTTP-запросов, работу с сервлетами, JSP-страницами, сессиями и базой данных через JDBC.
-
-Repository: https://github.com/KororokisRock/MiniBlogProj
+[Repository](https://github.com/KororokisRock/Spring-Non-Boot-Application)
 
 ### Python CSV Script
 
-CLI-утилита для обработки CSV-файлов.
+CLI-утилита для обработки CSV-файлов на Python.
 
 Поддерживает фильтрацию, сортировку, агрегации, работу с аргументами командной строки и форматированный вывод данных в консоль.
 
-Проект демонстрирует работу с файлами, обработку табличных данных, написание консольных утилит и структурирование логики в небольшом Python-приложении.
-
-Repository: https://github.com/KororokisRock/PythonCSVScript
+[Repository](https://github.com/KororokisRock/PythonCSVScript)
 
 ## Additional Interests
 
-Помимо Java backend, интересуюсь устройством операционных систем, Linux, системным программированием и низкоуровневой работой программ: процессами, памятью, файловым вводом-выводом и системными вызовами.
+Интересуюсь Linux, устройством операционных систем и системным программированием: процессы, память, файловый ввод-вывод и системные вызовы.
 
 ## Contacts
 
